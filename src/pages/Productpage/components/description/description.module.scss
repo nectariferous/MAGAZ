@@ -1,0 +1,54 @@
+.wrapper {
+	padding: 12px 16px;
+	margin-inline: 15px;
+	border-radius: 16px;
+	margin-top: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: rgb(245, 245, 245);
+
+	h3 {
+		font-size: 15px;
+		color: rgba(112, 117, 121, 1);
+		font-weight: 400;
+		line-height: 20px;
+	}
+
+
+
+	.description {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3; /* ограничивает текст 5 строками */
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.readmore {
+		color: rgba(0, 122, 255, 1);
+		background: transparent;
+		font-size: 15px;
+		line-height: 20px;
+		width: 100%;
+		text-align: right;
+		margin-top: 10px;
+		font-weight: 400;
+		font-family: "H_neue";
+		cursor: pointer;
+
+		&:hover {
+			color: blue;
+		}
+	}
+
+	.opened {
+		-webkit-line-clamp: unset;
+	}
+
+	p {
+		margin-top: 3px;
+		font-size: 17px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+}

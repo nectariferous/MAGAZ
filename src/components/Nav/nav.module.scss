@@ -1,0 +1,57 @@
+.outWrapper {
+	display: flex;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 300;
+	width: 100%;
+	padding-bottom: env(safe-area-inset-bottom);
+}
+
+.wrapper {
+	height: 57px;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background-color: #fff;
+
+}
+
+.ordersCounter {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: var(--blue-color);
+	color: white;
+	border-radius: 100px;
+	width: 17px;
+	height: 17px;
+	font-size: 10px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translate(20%, -20%);
+}
+
+.item {
+
+	position: relative;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+
+	* {
+		transition: 0.2s ease-in-out;
+	}
+
+	p {
+		font-size: 10px;
+		color: rgba(162, 172, 176, 1);
+	}
+}

@@ -1,0 +1,136 @@
+.wrapper {
+	padding-top: 20px;
+	background-color: #efeff4;
+	padding-bottom: 170px;
+}
+
+
+.myAddresses {
+	background-color: #fff;
+	width: calc(100% - 30px);
+	margin-inline: 15px;
+	border-radius: 12px;
+	margin-top: 10px;
+	padding-left: 16px;
+	overflow: hidden;
+
+
+	.address {
+		padding: 16px 16px 16px 0;
+		display: flex;
+		align-items: center;
+		position: relative;
+		border-bottom: .5px solid rgba(0, 0, 0, 0.15);
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	svg {
+		margin-right: 15px;
+
+	}
+
+	.addressName {
+		font-size: 17px;
+		line-height: 22px;
+		font-weight: 500;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.pick {
+		font-size: 15px;
+		line-height: 20px;
+		font-weight: 400;
+		color: rgba(112, 117, 121, 1);
+	}
+
+	.changeBtn {
+		background: transparent;
+		border: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		column-gap: 8px;
+		color: rgba(112, 117, 121, 1);
+		justify-self: flex-end;
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+
+		svg {
+			margin: 0;
+		}
+	}
+}
+
+.summary {
+	margin-top: 10px;
+	background-color: #fff;
+	border-radius: 12px;
+	padding-inline: 15px;
+	margin-inline: 15px;
+}
+
+.message {
+	position: fixed;
+	top: 20px;
+	z-index: 200;
+	background-color: red;
+	color: white;
+	font-weight: 500;
+	border-radius: 12px;
+	left: 15px;
+	padding: 15px;
+	transition: .2s ease-in-out;
+	width: calc(100% - 30px);
+	text-align: center;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+
+	.leftside {
+		display: flex;
+		align-items: center;
+
+	}
+
+	.svgWrapper {
+		width: 28px;
+		height: 28px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 16px;
+	}
+
+	.counter {
+		font-size: 17px;
+		line-height: 17px;
+		font-family: "H_neue";
+
+	}
+
+	.totalPrice {
+		font-size: 16px;
+		line-height: 17px;
+	}
+}
+
+
+.sum {
+
+
+	.totalPrice, .counter {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 18px;
+	}
+}

@@ -1,0 +1,25 @@
+.wrapper {
+	padding-top: 25px;
+	background-color: #efeff4;
+	padding-bottom: 250px;
+}
+
+.deleteButton {
+	background-color: #ff161610;
+	width: calc(100% - 30px);
+	margin-inline: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 10px;
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 600;
+	color: rgba(229, 57, 53, 1);
+	margin-top: 20px;
+	user-select: none;
+
+	&:active {
+		background-color: #dd111138;
+	}
+}

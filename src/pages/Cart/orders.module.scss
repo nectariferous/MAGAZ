@@ -1,0 +1,152 @@
+.wrapper {
+	padding-top: 10px;
+	padding-bottom: 170px;
+}
+
+.wrapperEmpty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+	.emptyP {
+		width: 240px;
+		margin-top: 20px;
+		text-align: center;
+		margin-inline: auto;
+	}
+}
+
+.lottie {
+	width: 200px;
+}
+
+.return {
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "H_neue";
+	text-decoration: underline;
+	color: rgba(112, 117, 121, 1);
+	text-align: right;
+	margin-inline: 15px;
+	cursor: pointer;
+}
+
+.cartItem {
+	background-color: #f5f5f5;
+	border-radius: 16px;
+	padding: 12px;
+	margin-top: 10px;
+	margin-inline: 15px;
+	transition: .2s ease-in-out;
+}
+
+.topside {
+	border-bottom: 1px solid rgba(0,0,0,.15);
+	padding-bottom: 10px;
+	display: flex;
+}
+
+.title {
+	font-weight: 600;
+
+}
+
+
+
+.imgBlock {
+	width: 100px;
+	height: 100px;
+	min-width: 100px;
+	min-height: 100px;
+	overflow: hidden;
+	aspect-ratio: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	background-color: #fff;
+
+	img {
+		user-select: none;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+.central {
+	margin-right: 20px;
+	margin-left: 10px;
+	font-size: 17px;
+	line-height: 22px;
+}
+
+.description {
+	overflow: hidden;
+	max-height: 64px;
+	text-overflow: ellipsis;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 400;
+	margin-top: 4px;
+	color: rgba(112, 117, 121, 1);
+}
+
+.picker {
+	cursor: pointer;
+	min-width: 24px;
+	min-height: 24px;
+	width: 24px;
+	height: 24px;
+	background-color: rgba(0, 122, 255, 1);
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.notInOrderCard {
+	opacity: .7;
+}
+
+
+
+.notInOrderCheckbox {
+
+	background-color: transparent;
+	border: 2px solid rgba(0,0,0,.05);
+}
+
+.botside {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.counter {
+	display: flex;
+	align-items: center;
+	column-gap: 16px;
+	font-size: 20px;
+	line-height: 16px;
+	font-weight: 700;
+	user-select: none;
+
+	svg {
+		cursor: pointer;
+
+	}
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+	font-size: 20px;
+	line-height: 16px;
+	font-weight: 700;
+	font-family: "H_neue";
+}

@@ -1,0 +1,35 @@
+.wrapper {
+	margin-top: 8px;
+	display: grid;
+	display: flex;
+	
+	column-gap: 8px;
+	padding-inline: 15px;
+	margin-bottom: 30px;
+
+	div {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		row-gap: 4px;
+		width: 100%;
+		background-color: rgb(245, 245, 245);
+		padding: 12px 0;
+		border-radius: 12px;
+		text-align: center;
+
+		p {
+			&:nth-child(1) {
+				font-size: 20px;
+				font-weight: 900;
+				color: rgba(0, 122, 255, 1);
+			}
+
+			&:nth-child(2) {
+				font-size: 13px;
+				font-weight: 500;
+			}
+		}
+	}
+}

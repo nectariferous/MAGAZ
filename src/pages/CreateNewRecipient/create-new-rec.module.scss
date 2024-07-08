@@ -1,0 +1,72 @@
+.wrapper {
+	padding-top: 25px;
+	background-color: #efeff4;
+	padding-bottom: 250px;
+}
+
+.myAddresses {
+	background-color: #fff;
+	width: calc(100% - 30px);
+	margin-inline: 15px;
+	border-radius: 12px;
+	margin-top: 10px;
+	padding-left: 16px;
+	overflow: hidden;
+
+
+	.address {
+		padding: 16px 16px 16px 0;
+		display: flex;
+		align-items: center;
+		position: relative;
+		border-bottom: .5px solid rgba(0, 0, 0, 0.15);
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	svg {
+		margin-right: 15px;
+	}
+
+	.addressName {
+		font-size: 17px;
+		line-height: 22px;
+		font-weight: 500;
+	}
+
+	.pick {
+		font-size: 15px;
+		line-height: 20px;
+		font-weight: 400;
+		color: rgba(112, 117, 121, 1);
+	}
+
+	.changeBtn {
+		background: transparent;
+		border: none;
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+		color: rgba(112, 117, 121, 1);
+		justify-self: flex-end;
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+
+		svg {
+			margin: 0;
+		}
+	}
+}
+
+
+.noAddress {
+	margin-inline: 15px;
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 12px;
+	margin-top: 10px;
+}

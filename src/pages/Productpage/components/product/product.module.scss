@@ -1,0 +1,136 @@
+.title {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 15px;
+
+  .magaz {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "ClashDisplay-medium";
+    font-weight: 500;
+  }
+  h1 {
+    font-family: "H_neue";
+    font-weight: 700;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 70%;
+    white-space: nowrap;
+  }
+
+  span {
+    color: rgba(170, 170, 170, 1);
+    font-weight: 400;
+  }
+}
+
+.priceLine {
+  margin-top: 10px;
+  padding-inline: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .price {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    font-size: 24px;
+    line-height: 16px;
+    font-weight: 700;
+  }
+}
+
+.orderNow {
+  padding: 0px 12px;
+  border-radius: 8px;
+  height: 42px;
+  font-size: 16px;
+  font-family: "H_neue";
+  color: white;
+  font-weight: 500;
+  background-color: rgba(41, 144, 255, 1);
+}
+
+.productInfo {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 15px;
+  column-gap: 8px;
+
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 12px 0;
+    border-radius: 12px;
+
+    p {
+      &:nth-child(1) {
+        font-size: 20px;
+        font-weight: 900;
+        color: rgba(0, 122, 255, 1);
+      }
+
+      &:nth-child(2) {
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.cartButton {
+  width: calc(100% - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #23ca70;
+  position: fixed;
+  bottom: 67px;
+  z-index: 100;
+  margin-bottom: env(safe-area-inset-bottom);
+  font-size: 17px;
+  line-height: 26px;
+  margin-inline: 15px;
+
+  height: 50px;
+  border-radius: 8px;
+
+  button {
+    background: transparent;
+    padding-inline: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .counter {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .controlBtn {
+    color: #23ca70;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,30 @@
+.wrapper {
+	width: 100%;
+	overflow-x: auto;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding-inline: 10px;
+	margin-top: 10px;
+}
+
+
+.size {
+	padding: 10px 12px;
+	height: 40px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'H_neue';
+	border: 1px solid #f2f2f2;
+	cursor: pointer;
+
+	&Active {
+		border: 1px solid #333333;
+	}
+}

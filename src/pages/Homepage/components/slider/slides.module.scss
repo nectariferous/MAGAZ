@@ -1,0 +1,79 @@
+.banner {
+    padding-inline: 15px;
+}
+
+.skeleton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 2.308;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    margin-bottom: 3px;
+    overflow: hidden;
+
+    .runner {
+        width: 1px;
+        box-shadow: 0 0 50px 30px #ebe8e8;
+        height: 100%;
+        rotate: 10deg;
+        margin-top: -5px;
+        transition: .2s;
+        position: relative;
+        left: -20%;
+        background-color: #ebe8e8;
+        animation: skeleton .7s infinite;
+    }
+}
+
+.skeletonDots {
+    width: 30px;
+    margin-inline: auto;
+    height: 6px;
+    border-radius: 10px;
+    margin-top: 4px;
+    background-color: #f7f7f7;
+}
+
+@keyframes skeleton {
+    0% {
+        left: -20%;
+    }
+    100% {
+        left: 120%;
+    }
+}
+
+.bannerItem {
+    border-radius: 12px;
+    width: 100%;
+    aspect-ratio: 2.308;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 4px;
+}
+
+.dot {
+    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #c0c0c0;
+    transition: 0.2s;
+}
+
+.activeDot {
+    background-color: var(--blue-color);
+    width: 14px;
+}

@@ -1,0 +1,24 @@
+.wrapper {
+	background-color: #fff;
+	margin-inline: 15px;
+	border-radius: 12px;
+	margin-top: 10px;	
+}
+
+.input {
+	padding: 15px 16px;
+	border: 0px;
+	border-radius: 12px;
+	width: 100%;
+	outline: none;
+
+	font-size: 17px;
+	line-height: 22px;
+
+	&::placeholder {
+		font-size: 17px;
+		line-height: 22px;
+		color: rgba(112, 117, 121, 1);
+
+	}
+}
