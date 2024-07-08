@@ -1,6 +1,7 @@
+
 # 🚀 MAGAZ - Your Ultimate Crypto Marketplace! 💎
 
-![MAGAZ Banner]([https://api.placeholder.com/1200x300?text=MAGAZ+Crypto+Marketplace](https://raw.githubusercontent.com/nectariferous/MAGAZ/main/1500x500.jfif))
+![MAGAZ Banner](https://raw.githubusercontent.com/nectariferous/MAGAZ/main/1500x500.jfif)
 
 Welcome to **MAGAZ** - where cryptocurrency meets exclusive shopping! 🛍️💰
 
