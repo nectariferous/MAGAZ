@@ -40,9 +40,16 @@ jobs:
     - name: Build project
       run: npm run build
 
+    - name: Check dev server
+      run: |
+        npm run dev &
+        sleep 10
+        curl -I http://localhost:3000
+      env:
+        NODE_ENV: development
+
     - name: Publish package
       if: github.ref == 'refs/heads/main'
       run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.TOKEN }}
- 
